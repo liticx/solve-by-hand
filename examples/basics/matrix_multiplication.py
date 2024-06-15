@@ -1,11 +1,13 @@
 import numpy as np
 
-# Define the matrices
-A = np.array([[1, 1], [-1, 1]])
-B = np.array([[1, 5, 2], [2, 4, 2]])
+#define the  matrices
 
-# Perform matrix multiplication
-C = np.dot(A, B)
+A = np.array([[1,-3], [2,-1]])
 
-# Print the outcomes and parameter count
+B = np.array([[2,3,-2], [-1,-4,6]])
+
+#perform matrix multiplication
+
+C = np.dot(A,B)
+
 print("Matrix A * Matrix B:\n", C)
